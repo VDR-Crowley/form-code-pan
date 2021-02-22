@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+  <h1 id="title">Preencha o Formulario</h1>
+
+  <p id="description">Não esqueça de preencher nenhum campo</p>
+
+  <form id="survey-form">
+    
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="name" required />
+    <br><br>
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" placeholder="email" required />
+    <br><br>
+    <label for="number" id="number-label">Age</label>
+    <input type="number" id="number" min="0" max="99" placeholder="age" required />
+    <br><br>
+    <select id="dropdown" name="role" required />
+      <option disabled selected value></option>
+      <option value="estudante">Estudante</option>
+      <option value="trabalhando">Trabalhando</option>
+    </select>
+    <br><br>
+    <label>
+      <input name="user" type="radio" value="yes" checked/> Yes
+    </label>
+    <br><br>
+    <label>
+      <input name="user" type="radio" value="no"/> No
+    </label>
+    <br><br>
+    <label>
+      <input name="prefer" value="Front" type="checkbox"> Front
+    </label>
+    <br><br>
+    <label>
+      <input name="prefer" value="Back" type="checkbox"> back
+    </label>
+    <br><br>
+    <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+    <br><br><br>
+    <input type="submit" id="submit" value="Enviar"/>
+  </form>
+</body>
+</html>
